@@ -1,0 +1,194 @@
+{
+    "name": "ChatCompontents",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "ByBug Market",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": ["id"],
+    "components": [
+        {
+            "id": "BEN_{id}",
+            "type": "HorizontalArrangement",
+            "properties": {
+                "AlignHorizontal": 2,
+                "AlignVertical": 2,
+                "BackgroundColor": 16777215,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "Vertical_Arrangement1_{id}",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                        "BackgroundColor": 4294248560,
+                        "Width": -1060,
+                        "isCard": true
+                    },
+                    "components": [
+                        {
+                            "id": "Horizontal_Arrangement1_{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "AlignHorizontal": 3,
+                                "AlignVertical": 2,
+                                "BackgroundColor": 16777215,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "BEN_KULLANICI_ADI_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "Width": -2,
+                                        "Text": "null",
+                                        "TextAlignment": 2,
+                                        "TextColor": 4294967295
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "BEN_MESAJ_{id}",
+                            "type": "Label",
+                            "properties": {
+                                "Text": "null",
+                                "TextColor": 4294967295
+                            }
+                        },
+                        {
+                            "id": "Horizontal_Arrangement1_copy_{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "AlignHorizontal": 3,
+                                "AlignVertical": 2,
+                                "BackgroundColor": 16777215,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "BEN_SAAT_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontSize": 12,
+                                        "Width": -2,
+                                        "Text": "null",
+                                        "TextColor": 4294967295
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Vertical_Arrangement2_{id}",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                        "AlignHorizontal": 3,
+                        "BackgroundColor": 16777215,
+                        "Height": -2
+                    },
+                    "components": [
+                        {
+                            "id": "BEN_PROFIL_PHOTO_{id}",
+                            "type": "Image",
+                            "properties": {
+                                "Height": 50,
+                                "Width": 50,
+                                "Picture": "null"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Space1_{id}",
+                    "type": "SpaceView",
+                    "properties": {
+                        "Width": -1002
+                    }
+                }
+            ]
+        },
+        {
+            "id": "SEN_{id}",
+            "type": "HorizontalArrangement",
+            "properties": {
+                "AlignVertical": 2,
+                "BackgroundColor": 16777215,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "Space1_copy_{id}",
+                    "type": "SpaceView",
+                    "properties": {
+                        "Width": -1002
+                    }
+                },
+                {
+                    "id": "Vertical_Arrangement2_copy_{id}",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                        "AlignHorizontal": 3,
+                        "BackgroundColor": 16777215,
+                        "Height": -2
+                    },
+                    "components": [
+                        {
+                            "id": "SEN_PROFIL_PHOTO_{id}",
+                            "type": "Image",
+                            "properties": {
+                                "Height": 50,
+                                "Width": 50,
+                                "Picture": "null"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Vertical_Arrangement1_copy_{id}",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                        "BackgroundColor": 4294248560,
+                        "Width": -1060,
+                        "isCard": true
+                    },
+                    "components": [
+                        {
+                            "id": "SEN_KULLANICI_ADI_{id}",
+                            "type": "Label",
+                            "properties": {
+                                "FontBold": true,
+                                "Width": -2,
+                                "Text": "null",
+                                "TextColor": 4294967295
+                            }
+                        },
+                        {
+                            "id": "SEN_MESAJ_{id}",
+                            "type": "Label",
+                            "properties": {
+                                "Text": "null",
+                                "TextColor": 4294967295
+                            }
+                        },
+                        {
+                            "id": "SEN_SAAT_{id}",
+                            "type": "Label",
+                            "properties": {
+                                "FontSize": 12,
+                                "Width": -2,
+                                "Text": "null",
+                                "TextAlignment": 2,
+                                "TextColor": 4294967295
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
